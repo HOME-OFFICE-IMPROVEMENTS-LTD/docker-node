@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Calculate file differences
-        uses: lots0logs/gh-action-get-changed-files@2.1.4
+        uses: lots0logs/gh-action-get-changed-files@2.2.2
         id: diff
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
